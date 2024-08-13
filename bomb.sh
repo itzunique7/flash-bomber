@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #set -x
-#By suman kumar ~BHUTUU github:- https://github.com/BHUTUU
+#By Dhiraj ~BHUTUU github:- https://github.com/itzunique7
 #for darkhack as a collabrator
 #date:- 14/09/2021
 args="$@"
