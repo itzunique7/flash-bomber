@@ -1,4 +1,4 @@
-<h1 align="center">Dark Hack 1.0<br>
+<h1 align="center">Flash Bomber 1.0<br>
 </h1>
 
 * `A Superfast SMS bomber for Linux And Termux !`
@@ -46,11 +46,11 @@ apt update -y && apt upgrade -y
 
 Clone the repository
 ```bash
-git clone https://github.com/King-Nazim/darkhack
+git clone https://github.com/itzunique7/flash-bomber
 ```
 Go to the darkhack directory
 ```bash
-cd darkhack
+cd flash-bomber
 ```
 Run the script
 ```bash
