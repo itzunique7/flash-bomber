@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #set -x
-#By Dhiraj ~BHUTUU github:- https://github.com/itzunique7
-#for darkhack as a collabrator
-#date:- 14/09/2021
+#By Dhiraj - github:- https://github.com/itzunique7
+#for flash bomber as a collabrator
+#date:- 13/08/2024
 args="$@"
 comand="bomb.sh ${args}"
 CWD=$(pwd)
@@ -174,7 +174,7 @@ echo -e '''
          \e[1;91m      ╔═══════════╗
          \e[1;91m    ╔═╝\e[1;97m███████████\e[1;91m╚═╗
          \e[1;91m   ╔╝\e[1;97m███████████████\e[1;91m╚╗
-         \e[1;91m   ║\e[1;97m█████\e[1;92mDarkHack\e[1;97m████\e[1;91m║
+         \e[1;91m   ║\e[1;97m█████\e[1;92mFLASH\e[1;97m████\e[1;91m║
          \e[1;91m   ║\e[1;97m█████████████████\e[1;91m║\e[1;91m
          \e[1;91m   ║\e[1;97m█████████████████\e[1;91m║\e[1;91m
          \e[1;91m   ║\e[1;97m█\e[1;91m╔\e[1;97m█████████████\e[1;91m╗\e[1;97m█\e[1;91m║\e[1;91m
@@ -193,23 +193,15 @@ echo -e '''
 ''' | pv -qL 300
 sleep 1
 
-echo -e "                This is ${S2} King-Nazim, MishalMMSS and BHUTUU" | pv -qL 150
+echo -e "                This is ${S2} DHIRAJ " | pv -qL 150
 
-echo "                 From Dark Hackers !" | pv -qL 150
+echo "                 From FLASH X BOMB !" | pv -qL 150
 echo
 echo -e "     ${S2}  Ethical Hackers${S7} |${S2} CyberSec Students${S7} |${S2} Programmers" | pv -qL 10
 echo
-printf "${S2}                 Group Admin at${S7} Dark Hackers${R0}\n" | pv -qL 12
+printf "${S2}                 Group Admin at${S7} FLASHCHATZ${R0}\n" | pv -qL 12
 echo
 echo -e "       ${S6}          Our social handles are below !!" | pv -qL 10
-echo
-printf "${S2}          Github ${S1}     :    ${S6}https://github.com/King-Nazim/${R0}\n" | pv -qL 50
-printf "${S2}          Github ${S1}     :    ${S6}https://github.com/Mishalmmss/${R0}\n" | pv -qL 50
-printf "${S2}          Github ${S1}     :    ${S6}https://github.com/BHUTUU/${R0}\n" | pv -qL 50
-echo
-printf "${S2}         Instagram ${S1}   :   ${S6}https://instagram.com/nazimcp7/${R0}\n" | pv -qL 50
-printf "${S2}         Instagram ${S1}   :   ${S6}https://instagram.com/_mishal_hussain_/${R0}\n" | pv -qL 50
-printf "${S2}         Instagram ${S1}   :   ${S6}https://instagram.com/suman_cubezy/${R0}\n" | pv -qL 50
 echo
 echo -e "${S1}                        Happy Hacking :)${R0}" | pv -qL 10
 sleep 7
@@ -320,8 +312,8 @@ if [ "$options" -eq "2" ];then
   rm -rf $PREFIX/bin/darkhack > /dev/null 2>&1
   cd $PREFIX/share
   rm -rf darkhack > /dev/null 2>&1
-  git clone https://github.com/King-Nazim/darkhack
-  cd $PREFIX/share/darkhack && chmod +x bomb.sh
+  git clone https://github.com/itzunique7/flash-bomber
+  cd $PREFIX/share/flash-bomber && chmod +x bomb.sh
   sleep 1
 cat <<- CONFI > $PREFIX/bin/darkhack
 #!/bin/bash
